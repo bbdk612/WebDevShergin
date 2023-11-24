@@ -1,0 +1,7 @@
+.dragNDrop {
+  position: absolute;
+  z-index: 10000;
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+}
