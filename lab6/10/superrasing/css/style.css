@@ -1,0 +1,93 @@
+* {
+    overflow: hidden;
+}
+
+.dialog {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(182, 182, 182, 0.14);
+    position: absolute;
+    overflow: hidden;
+    z-index: 1000000;
+}
+
+.hide {
+    display: none;
+}
+
+.dialogWindow {
+    width: 500px;
+    height: 250px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialogWindow div {
+    font-size: 25px;
+}
+
+.gameArea {
+    width: 750px;
+    height: 100vh;
+    margin: auto;
+    background-color: rgb(59, 59, 59);
+    position: relative;
+    overflow: hidden; 
+}
+
+.badCar {
+    width: 50px;
+    height: 100px;
+    /* padding-bottom: 20px; */
+    position: absolute;
+    background-color: red;
+    background: transparent url(./../img/car2.png) center / cover no-repeat;
+    /* border: 1px solid black; */
+    z-index: 101000;
+}
+
+.score {
+    height: 50px;
+    width: 100vw;
+    color:#fff;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+    z-index: 500000;
+}
+
+.userCar {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(56, 165, 42);
+    background: transparent url(./../img/car6.png) center / cover no-repeat;
+}
+
+.controlPanel {
+    background-color: rgba(0, 0, 0, 0.582);
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+
+    width: 100vw;
+    height: 100px;
+    top: calc(100vh - 100px);
+    z-index: 101100
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+}
